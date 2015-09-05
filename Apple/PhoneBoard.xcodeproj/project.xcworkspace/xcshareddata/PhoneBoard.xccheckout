@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1E4C3A0C-5FB1-4D25-805E-E707A419C325</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PhoneBoard</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BFC13B29D5DD497AA2ECCE46709224BF4E2A5D27</key>
+		<string>https://github.com/NoahRCarver/PhoneBoard.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Apple/PhoneBoard.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BFC13B29D5DD497AA2ECCE46709224BF4E2A5D27</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/NoahRCarver/PhoneBoard.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BFC13B29D5DD497AA2ECCE46709224BF4E2A5D27</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BFC13B29D5DD497AA2ECCE46709224BF4E2A5D27</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PhoneBoard</string>
+		</dict>
+	</array>
+</dict>
+</plist>
