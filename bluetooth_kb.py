@@ -9,7 +9,9 @@
 # Bluetooth to keyboard event
 import bluetooth, sys
 
-target_name = "Galaxy S5 CM"
+TARGET_NAME = "Galaxy S5 CM"
+
+
 target_address = None
 
 print("Recommended: pair the phone with Bluetooth.")
@@ -20,14 +22,27 @@ for bdaddr in nearby_devices:
     lookup = bluetooth.lookup_name(bdaddr)
     print(bdaddr, lookup)
 
-    if target_name == lookup:
+    if TARGET_NAME == lookup:
         target_address = bdaddr
         break
 
 if target_address:
-    print("Found target", target_name)
+    print("Found target", TARGET_NAME)
 else:
     print("Could not find bluetooth device nearby.")
     sys.exit()
+
+
+server_sock = bluetooth.BluetoothSocket(bluetooth.RFCOMM)
+PORT = 1337
+server_sock.bind(("", PORT))
+server_sock.listen(1)
+
+print(server_sock.getsockname())
+
+
+
+
+
 
 
